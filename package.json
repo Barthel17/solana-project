@@ -1,0 +1,49 @@
+{
+  "name": "solana-prediction-market-aggregator",
+  "version": "1.0.0",
+  "description": "Real-time Solana prediction market data aggregator with multi-protocol support",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "db:migrate": "tsx src/storage/migrate.ts",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest"
+  },
+  "keywords": ["solana", "prediction-markets", "blockchain", "indexer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^2.0.0",
+    "@coral-xyz/anchor": "^0.29.0",
+    "@project-serum/borsh": "^0.2.5",
+    "@pythnetwork/client": "^2.19.0",
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "better-sqlite3": "^9.4.3",
+    "postgres": "^3.4.3",
+    "zod": "^3.22.4",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10",
+    "@types/cors": "^2.8.17",
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
