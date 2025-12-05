@@ -45,14 +45,7 @@ The bot supports multiple weather market types including temperature thresholds,
 
 ## Demo Video
 
-[Link to demo video - to be added]
-
-*Demo video should be ≤ 3 minutes and demonstrate:*
-- Bot startup and configuration
-- Market discovery and edge detection
-- Real-time dashboard monitoring
-- Trade execution (paper trading mode)
-- Alert notifications
+[https://youtu.be/lB54UfzIhrc?si=lksWOwSRWiMV4AvD]
 
 ---
 
