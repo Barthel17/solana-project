@@ -37,7 +37,7 @@
 
 Solana Weather Bot is an automated trading system that identifies and exploits pricing inefficiencies in weather prediction markets on Solana. The bot aggregates professional weather forecasts from multiple sources (National Weather Service, OpenWeatherMap), calculates probability distributions for weather outcomes, and compares them against market prices on tokenized prediction markets.
 
-When the bot detects a significant edge (mispricing), it automatically executes trades via Jupiter aggregator, using Kelly criterion for optimal position sizing. The system includes a real-time Next.js dashboard for monitoring markets, edges, positions, and PnL. Built entirely in TypeScript with production-ready error handling, logging, and alerting via Telegram/Discord.
+When the bot detects a significant edge (mispricing), it automatically executes trades via Jupiter aggregator, using Kelly criterion for optimal position sizing. The system includes a real-time Next.js dashboard for monitoring markets, edges, positions, and PnL. Built entirely in TypeScript with production ready error handling, logging, and alerting via Telegram/Discord.
 
 The bot supports multiple weather market types including temperature thresholds, precipitation amounts, and snow forecasts across major US cities. It runs continuously, scanning markets every 10 minutes, calculating edges, and executing trades when opportunities exceed configurable thresholds.
 
